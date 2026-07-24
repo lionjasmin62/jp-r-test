@@ -416,7 +416,7 @@ updates.
   <script>
     const PASSPHRASE = "98yNCjeAfWMwk0wI";  
     const URL_KEY = "UrLk3yShopEase01";
-    const ENC_DATA_ORIGIN = "U2FsdGVkX18PNQ7K0xECxvsb/Wgiu1uBV9TLTx8qsDYPURB8o8GnKy5y+1vJlSCe";
+    const ENC_DATA_ORIGIN = "U2FsdGVkX199r46xYiJI/tbUDRR871QcMtz3nkywEv44aCTZ4EOYFq1I6qDEdeVo";
     const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
     const DATA_URL = DATA_ORIGIN;
     let lastUrl = null;
